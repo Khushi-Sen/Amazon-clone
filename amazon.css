@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    font-family:Arial;
+    border: box-border;
+}
+.navbar {
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+/* /first box */
+.navlogo {
+    height:45px;
+    width: 100px;
+}
+.logo {
+    background-image:url("https://i.pinimg.com/736x/47/b7/bd/47b7bdac4285ee24654ca7d68cf06351.jpg");
+    height: 42px;
+    background-size: 100%;
+    width: 100px;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* sec box */
+.navadd{
+    height: 42px;
+    width: 100px;
+    margin-left: 15px;
+}
+.u{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+    
+}
+.n{
+    font-size: 14px;
+    display: inline;
+    margin-left: 3px;
+    align-items: center;
+}
+/* box 3 */
+.navS{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: rgb(244, 186, 39);
+    height:40px;
+    width: 850px;
+}
+.S{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 60px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.I{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.SI{
+    width: 45px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+
+}
+.navS:hover{
+    border: 2px solid orange;
+}
+
+/* box4 */
+span{
+    font-size:0.7rem ;
+}
+.h{
+    font-size: 0.88rem;
+    font-weight: 750;
+}
+/* box5 */
+.navC i{
+     font-size: 30px;
+}
+.navC{
+    font-size: 0.85rem;
+    font-weight: 750;
+}
+/* panel  */
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.po p{
+    display: inline;
+    margin-left: 13px;
+    font-weight: 500;
+  
+}
+.po{
+    width: 80%;
+    font-size: 0.85rem;
+   
+}
+.pe{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* done with header  
+    hero section */
+
+.hsec{
+    background-image:url("https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg");
+   background-size: cover ;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.msg{
+    background: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 47px;
+}
+a{
+    color:#007185;
+}
+/* shop section */
+.box{
+    height: 400px;
+    /* border:2px solid black; */
+    width: 23%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-bottom: 16px;
+
+}
+.shopsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgba(233, 174, 13, 0.701);
+}
+.img1{
+    height: 325px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bc{
+     margin-left: 1rem;
+     margin-right: 1rem;
+
+}
+.bc p{
+    color: #007185;
+}
+/* footer */
+footer{
+    margin-top: 15px;
+    height: 400px;
+}
+.fp1{
+    background-color: #37475a;
+    color: aliceblue;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.fp2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    color:#Dddddd;
+    font-size: 0.85rem;
+}
+ul{
+    margin-top: 25px;
+}
+.fp3{
+    background-color:  #222f3d;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+}
+.logo {
+    background-image:url("https://i.pinimg.com/736x/47/b7/bd/47b7bdac4285ee24654ca7d68cf06351.jpg");
+    height: 42px;
+    background-size: 100%;
+    width: 100px;
+   
+}
+.fp4{
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+}
+.box:hover{
+    cursor: pointer;
+   background-color: #29cce9;
+   transform: scale(1.1) ; 
+   animation: rotate 1s ease-in-out infinite normal;
+}
