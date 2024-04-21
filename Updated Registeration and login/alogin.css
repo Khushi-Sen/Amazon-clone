@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/01/17/33/22/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg");
+    background-size: cover;
+   
+   }
+   #K{
+       font-size: 1.6rem ;
+       font-weight: 1000;
+       text-align: center;
+       padding-top: 30px;
+   }
+   .user{
+    height: 650px;
+    width: 350px;
+    background-color:white;
+    box-shadow: 4px 6px rgb(47, 39, 39);
+    border-radius: 5%;
+
+       padding-left: 50px;
+       padding-right: 50px;
+       margin-left: 300px;
+       margin-top: 40px;
+   }
+   #p1{
+       font-size: medium;
+       font-weight: 500;
+   
+   }
+   #b{
+       color:white;
+       font-size: larger;
+       font-weight: 600;
+       cursor: pointer;
+       height: 30px;
+       border-radius: 4px;
+       /* margin-left:43px ; */
+       width: 100%;
+       background: linear-gradient(to right,rgba(249, 20, 142, 0.948),rgb(222, 21, 222))
+   }
+   a{
+      padding-left: 200px;
+       text-decoration: none;
+       color: blue;
+   }
+   #b:hover{
+       background:  blue;
+   }
+   .p2{
+       color: blue;
+       
+       
+   }
+   i{
+      font-size:25px; 
+   }
+   .ic{
+       padding-left: 115px;
+   
+   }
+   
+   #homepage{
+     display: block;
+     padding:10px;
+     color: black;
+     
+     margin-left: 80px;
+     padding-top: 20px;
+   }
+
+   input[type="text"], input[type="password"],input[type="email"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
